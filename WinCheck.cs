@@ -94,13 +94,13 @@ namespace tictactoe
                     break;
                 }
             }
-        } //Method is called to check for a diagonal win.
+        } 
 
         public static void Draw()
         {
             
             {
-                Console.WriteLine("Aw gosh... it's a draw." +
+                Console.WriteLine("Tie!" +
                                   "\nPlease press any key to reset the game and try again!");
                 Console.ReadKey();
                 Board.BoardReset();
